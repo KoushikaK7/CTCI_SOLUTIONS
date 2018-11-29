@@ -1,3 +1,9 @@
+/*
+Author: Koushika Kesavan
+Date of Creation: 30 November 2018, Friday
+All rights reserved
+*/
+
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
