@@ -1,20 +1,22 @@
-#include<iostream.h>
 #include<stdio.h>
 #include<conio.h>
+#include<iostream.h>
 #include<string.h>
+#include<stdlib.h>
 void main()
 {
-clrscr();
-int i,count,temp;
-char a[200];
-gets(a);
-count=strlen(a);
-for(i=0;i<count/2;i++)
+char *str;
+int i, end,n;
+gets(str);
+end=strlen(str);
+n=end;
+for(i=0;i<n/2;i++)
 {
-temp=a[i];
-a[i]=a[count-i-1];
-a[count-i-1]=temp;
+str[i]+=str[end-1];
+str[end-1]=str[i]-str[end-1];
+str[i]-=str[end-1];
+end--;
 }
-puts(a);
+puts(str);
 getch();
 }
