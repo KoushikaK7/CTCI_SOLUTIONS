@@ -39,7 +39,7 @@ cout<<"\nContains no duplicates"<<"\n";
 }
 else if(n==count-1)
 {
-cout<<"\nContains all duplicates"<<"\n";
+cout<<"\nContains duplicates"<<"\n";
 }
 puts(a);
 getch();
