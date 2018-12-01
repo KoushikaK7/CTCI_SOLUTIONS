@@ -45,7 +45,7 @@ for(i=1;i<count;i++)
   }
  a[end]=0;
 }
-if(n==0)
+if(n==0)//Null check should be included
 {
 cout<<"\nContains no duplicates"<<"\n";
 }
