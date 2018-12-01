@@ -1,3 +1,15 @@
+/*
+Author: Koushika Kesavan
+Date of Creation: 2 December 2018
+Time Complexity: O(n^2)
+Checked for Testcases:
+1.Does not contain any duplicates.
+2.Contains all duplicates.
+3.Null String
+4.Continuous duplicates.
+5.Non Continuous duplicates.
+All rights reserved
+*/
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
