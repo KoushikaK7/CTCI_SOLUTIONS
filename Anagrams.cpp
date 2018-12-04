@@ -1,3 +1,8 @@
+/*
+Author: Koushika Kesavan
+Time Complexity: O(nlog(n))
+All rights reserved
+*/
 #include<iostream>
 #include<stdio.h>
 #include<algorithm>
@@ -14,7 +19,7 @@ s1=sizeof(str1);
 s2=sizeof(str2);
 sort(str1,str1+s1);
 sort(str2,str2+s2);
-if(strcmp(str1,str2)==)
+if(strcmp(str1,str2)==0)
 	cout<<"The two words are anagrams";
 else
 	cout<<"The two words are not anagrams"<<"\n"<<str1<<"\n"<<str2;
