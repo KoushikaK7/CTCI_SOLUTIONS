@@ -1,10 +1,17 @@
+/*
+Author: Koushika Kesavan
+Title: Anagrams-2
+Bubble sort used, not an efficient code, in the previous code(Anagrams) minor errors are still present.
+All rights reserved
+*/
+
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
 #include<iostream.h>
 #include<stdlib.h>
 char str1[30],str2[30];
-void sort(char* str1)
+void sort(char* str1)//Bubble sort
 {
 int i,j;
 char temp;
