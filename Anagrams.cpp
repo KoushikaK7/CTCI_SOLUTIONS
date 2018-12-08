@@ -17,7 +17,7 @@ getline(cin,str1);
 getline(cin,str2);
 s1=sizeof(str1);
 s2=sizeof(str2);
-sort(str1,str1+s1);
+sort(str1,str1+s1);//Default library sort function uses quick sort approach
 sort(str2,str2+s2);
 if(strcmp(str1,str2)==0)
 	cout<<"The two words are anagrams";
