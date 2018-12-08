@@ -1,3 +1,12 @@
+/*
+Author: Koushika Kesavan
+Title: Space Replace
+Time Complexity: O(n^2)
+Not efficient
+All rights reserved
+*/
+
+
 #include<stdio.h>
 #include<iostream.h>
 #include<conio.h>
